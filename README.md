@@ -1,8 +1,7 @@
-# 📟 METERS-PROJECT – Streamlit Meter Dashboard
+# METERS-PROJECT – Streamlit Based Meter Dashboard
 
 A Streamlit-based dashboard for managing meter records with MongoDB integration.  
 The app allows users to add meters, upload images, generate PDF reports, and browse meters with filtering & sorting.  
-All images and generated reports are also saved locally inside the `outputs/` folder for easy access.
 
 ---
 
@@ -14,10 +13,12 @@ The app ensures case-insensitive uniqueness for IDs, provides PDF report downloa
 
 ## Key Features
 - Add new meter records with:
-  - Meter ID, Consumer ID, Value (reading), and Image
+   * Meter ID
+   * Consumer ID
+   * Value (reading)
+   * Meter Image
 - Prevent duplicate Meter/Consumer IDs
 - Store images in MongoDB GridFS
-- Save images and PDF reports to `outputs/`
 - Browse, search, filter, and paginate through saved meters
 - Update meter values in-place
 - Delete meters (removes associated image from GridFS)
@@ -33,7 +34,6 @@ The app ensures case-insensitive uniqueness for IDs, provides PDF report downloa
 | Backend      | MongoDB Atlas, GridFS                |
 | Reporting    | ReportLab / FPDF (PDF generation)    |
 | Language     | Python                               |
-| File Storage | Local `outputs/` folder for showcase |
 
 ---
 
@@ -67,3 +67,19 @@ The app ensures case-insensitive uniqueness for IDs, provides PDF report downloa
 ### Clone the repo
 ```bash
 git clone https://github.com/ASHRITH-SAMBARAJU/METERS-PROJECT.git
+```
+### Run the Project
+#### Activate Virtual Environment
+```bash
+ .\.venv\Scripts\activate
+```
+#### Run the Powershell
+```bash
+streamlit run app.py
+```
+---
+## Contact Me
+
+Ashrith Sambaraju
+Email: ashrithsambaraju@gmail.com
+LinkedIn: linkedin.com/in/ashrithsambaraju
