@@ -1,4 +1,4 @@
-# METERS-PROJECT – Streamlit Based Meter Dashboard
+# METERS PROJECT – Streamlit Based Meter Dashboard
 
 A Streamlit-based dashboard for managing meter records with MongoDB integration.  
 The app allows users to add meters, upload images, generate PDF reports, and browse meters with filtering & sorting.  
