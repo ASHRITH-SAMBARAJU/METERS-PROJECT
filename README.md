@@ -48,13 +48,6 @@ The app ensures case-insensitive uniqueness for IDs, provides PDF report downloa
 ### Meter Report PDF Preview
 ![Report](outputs/MeterReport.png)
 
-### Sample Meter Images
-<p align="center">
-  <img src="outputs/meterimages/meter1.jpg" width="200"/>
-  <img src="outputs/meterimages/meter2.jpg" width="200"/>
-  <img src="outputs/meterimages/meter3.jpg" width="200"/>
-</p>
-
 ---
 
 ## How to Run the Project
@@ -80,6 +73,6 @@ streamlit run app.py
 ---
 ## Contact Me
 
-Ashrith Sambaraju
-Email: ashrithsambaraju@gmail.com
-LinkedIn: linkedin.com/in/ashrithsambaraju
+**Ashrith Sambaraju**  
+Email: [ashrithsambaraju@gmail.com](mailto:ashrithsambaraju@gmail.com)  
+LinkedIn: [linkedin.com/in/ashrithsambaraju](https://linkedin.com/in/ashrithsambaraju)  
